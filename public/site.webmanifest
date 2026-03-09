@@ -1,0 +1,17 @@
+{
+  "name": "Marwan Sherif Portfolio",
+  "short_name": "MS Portfolio",
+  "description": "Front-end developer portfolio showcasing React and TypeScript projects",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00b4cc",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

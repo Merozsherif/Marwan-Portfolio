@@ -1,0 +1,196 @@
+@import "tailwindcss";
+
+:root {
+  --text-color: #101828;
+  --text-color-2: #fff;
+  --text-color-secondary: #364153;
+  --orange-text: #00b4cc;
+  --nav-links-text: #4a5565;
+  --gray-text: #4a5565;
+  --gray-bg: #f3f4f6;
+  --dark-btn-bg: #1e2939;
+  --contact-card-bg: rgba(255, 105, 0, 0.2);
+  --contact-card-text: rgba(255, 105, 0, 0.2);
+  --border-color: #e5e7eb;
+  --custom-bg: #f9fafb;
+  --skill-bg: #f9fafb;
+  --skill-text: #1e2939;
+  --custom-bg-2: #fff;
+  --project-used-tech-bg: #fff7ed;
+  --project-used-tech-border: #ffd6a7;
+  --project-used-tech-text: #0097ac;
+  --input-border: #d1d5dc;
+  --color-orange-500: #00b4cc;
+  --color-orange-600: #0097ac;
+}
+
+:root.dark {
+  background-color: oklch(0.13 0.03 261.7);
+  --text-color: #fff;
+  --text-color-2: #000;
+  --text-color-secondary: #d1d5dc;
+  --orange-text: #00b4cc;
+  --nav-links-text: #fff;
+  --gray-text: oklch(0.707 0.022 261.325);
+  --gray-bg: oklch(0.28 0.03 257.69);
+  --dark-btn-bg: #1e2939;
+  --contact-card-bg: #1399fc1c;
+  --contact-card-text: #1399fc1c;
+  --border-color: oklch(0.28 0.03 257.69);
+  --custom-bg: oklch(0.21 0.03 263.45);
+  --custom-bg-2: oklch(0.21 0.03 263.45);
+  --skill-bg: #1e2939;
+  --skill-text: #d1d5dc;
+  --project-used-tech-bg: #1e2939;
+  --project-used-tech-border: #364153;
+  /* --project-used-tech-text: oklch(70.5% 0.213 47.604); */
+  --project-used-tech-text: #0097ac;
+  --input-border: #364153;
+}
+
+/* Add theme transition delay for the root element */
+html {
+  transition:
+    background-color 0.4s ease,
+    color 0.4s ease,
+    border-color 0.4s ease,
+    fill 0.3s ease,
+    stroke 0.3s ease;
+}
+
+/* This is used to add theme transition delay for many elements */
+.delay {
+  transition:
+    background-color 0.4s ease,
+    color 0.4s ease,
+    border-color 0.4s ease,
+    fill 0.3s ease,
+    stroke 0.3s ease;
+}
+/* Insted of the method above to add delay, I could have done "*"
+ to target all elements but this method should give way better perfomance */
+
+/* Target the currently selected nav bar link*/
+.active {
+  color: white;
+  border-radius: 0.625rem;
+  background-color: var(--orange-text);
+}
+
+/* A custom scroll bar styling */
+.scrollbar-custom {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #00b4cc transparent; /* Firefox */
+}
+
+/* For Chrome, Edge, Safari */
+.scrollbar-custom::-webkit-scrollbar {
+  width: 6px; /* thickness */
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: transparent; /* track color */
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background-color: #00b4cc; /* thumb color */
+  border-radius: 3px; /* rounded thumb */
+}
+
+/* Style the page selection */
+::selection {
+  background-color: #00b4cc;
+  color: white;
+}
+
+/* Animations For error pages (not-found.tsx & error.tsx) */
+@keyframes pulse-slow {
+  0%,
+  100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.15;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(10deg);
+  }
+}
+
+@keyframes float-delayed {
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(-10deg);
+  }
+}
+
+@keyframes bounce-gentle {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up-delayed {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-slow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: rotate(-5deg);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: rotate(5deg);
+  }
+}

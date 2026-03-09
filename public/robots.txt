@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://marwan-portfolio-ochre.vercel.app/sitemap.xml
