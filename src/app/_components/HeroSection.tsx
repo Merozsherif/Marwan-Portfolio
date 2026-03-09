@@ -78,7 +78,7 @@ function HeroSection() {
             </Button>
 
             <a
-              href="/cv.pdf"
+              href="/cv1.pdf"
               download="Marwan-Sherif-CV.pdf"
               className="flex items-center gap-2 px-6 py-3 rounded-[0.625rem] cursor-pointer transition-all duration-300  focus:outline-none focus-visible:ring-2 focus-visible:ring-(--orange-text) text-white bg-(--dark-btn-bg) hover:bg-gray-700 hover:scale-102 max-[390px]:grow max-[390px]:justify-center"
             >
