@@ -2,7 +2,8 @@
 
 _A modern showcase of my web development journey, skills, and projects._
 
-**Live Demo:** [Marwan-Sherif.vercel.app](https://marwan-portfolio-ochre.vercel.app/)  
+**Live Demo:** [Marwan-Sherif.vercel.app](https://marwan-portfolio-p7ou.vercel.app/home)
+
 **Figma Design:** [Portfolio-App Figma](https://www.figma.com/design/1LNGOAX1BV4PI1sEHHiqBD/Portfolio-Web-App-Design?node-id=3-13162&m=dev)
 
 **This Website** is my personal portfolio showcasing my journey as a **web developer**. It highlights my technical skills, featured projects, educational background, and professional accomplishments — all wrapped in a clean, responsive, and performant interface built with modern technologies.
@@ -158,7 +159,7 @@ I'm **Marwan Sherif**, a passionate web developer and a computer engineer dedica
 Feel free to reach out through the contact form on the website, explore my YouTube content, or connect with me on social media:
 
 - LinkedIn: [linkedin](https://www.linkedin.com/in/marwan-sherif-518601252)
-- GitHub: [Eng-Muntadher](https://github.com/Merozsherif/Marwan-Portfolio.git)
+- GitHub: [Eng-Marwan](https://github.com/Merozsherif)
 - Email: marwansher3@gmail.com
 
 ---

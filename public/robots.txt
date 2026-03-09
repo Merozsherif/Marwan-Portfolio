@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://marwan-portfolio-ochre.vercel.app/sitemap.xml
+Sitemap: https://marwan-portfolio-p7ou.vercel.app/sitemap.xml
