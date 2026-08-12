@@ -5,10 +5,17 @@ import { motion } from "framer-motion";
 
 import Button from "./Button";
 
+const categories = [
+  "Web Development",
+  "Mobile App",
+  "Dashboard / Admin Panel",
+  "CRM / Management System",
+];
+
 export default function ProjectsFilterButtons() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const state = searchParams.get("tech-used");
+  const state = searchParams.get("category");
 
   const buttonsData = [
     {
@@ -16,21 +23,11 @@ export default function ProjectsFilterButtons() {
       url: "/projects",
       text: "All Projects",
     },
-    {
-      variation: state === "Angular" ? "orange" : "gray",
-      url: "/projects?tech-used=Angular",
-      text: "Angular",
-    },
-    {
-      variation: state === "react" ? "orange" : "gray",
-      url: "/projects?tech-used=react",
-      text: "React",
-    },
-    {
-      variation: state === "nextjs" ? "orange" : "gray",
-      url: "/projects?tech-used=nextjs",
-      text: "Next.js",
-    },
+    ...categories.map((category) => ({
+      variation: state === category ? "orange" : "gray",
+      url: `/projects?category=${encodeURIComponent(category)}`,
+      text: category,
+    })),
   ];
 
   return (

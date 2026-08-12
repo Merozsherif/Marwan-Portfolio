@@ -47,7 +47,7 @@ export const skillsInfo: SkillCategory[] = [
     iconColor: "#3DDC97",
     iconBgColor: "#3DDC9720",
     category: "Mobile Development",
-    skills: ["Mobile App Development"],
+    skills: ["Flutter", "Dart", "Cross-Platform Development"],
   },
   {
     icon: Palette,

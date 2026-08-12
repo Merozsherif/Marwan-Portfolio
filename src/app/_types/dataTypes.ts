@@ -7,6 +7,7 @@ export interface Project {
   slug: string;
   subTitle: string;
   description: string;
+  categories: string[];
   technologiesUsed: string[];
   keyFeatures: string[];
   Challenges: string;

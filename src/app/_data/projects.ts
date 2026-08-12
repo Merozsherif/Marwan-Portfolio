@@ -13,6 +13,7 @@ export const projects: Project[] = [
     title: "E-commerce Web Application",
     slug: "e-commerce-web-application",
     subTitle: "A full-stack e-commerce platform with multi-language support and responsive design",
+    categories: ["Web Development"],
     description: "A responsive full-stack e-commerce web application built with React.js and Vite, integrating Supabase for secure authentication and database management. The platform includes a detailed product catalog, search functionality, shopping cart, and wishlist, offering a seamless shopping experience in both English and Arabic.",
     technologiesUsed: [
       "React",
@@ -45,6 +46,7 @@ export const projects: Project[] = [
     title: "Life Clinic Management System",
     slug: "life-clinic-management-system",
     subTitle: "A modern clinic management system for patients, appointments, prescriptions, and billing",
+    categories: ["Web Development", "Dashboard / Admin Panel"],
     description: "A full-featured clinic management system built with React.js, Firebase, and Firestore, allowing clinics to handle patient records, appointments, prescriptions, and billing efficiently. The platform features real-time dashboards for doctors and receptionists, secure authentication, and role-based access control.",
     technologiesUsed: [
       "React",
@@ -75,6 +77,7 @@ export const projects: Project[] = [
     title: "X-Care Healthcare Platform",
     slug: "x-care-healthcare-platform",
     subTitle: "A responsive healthcare platform connecting patients and doctors with AI-powered tools",
+    categories: ["Web Development", "Dashboard / Admin Panel"],
     description: "X-Care is a healthcare web platform with a focus on patient-doctor interactions. Built with Angular and Tailwind CSS on the frontend and integrated with Django REST Framework APIs, it offers appointment management, AI-powered diagnostics, health chatbots, dynamic blog and community pages, and a medical store for prescribed medications.",
     technologiesUsed: [
       "Angular",
@@ -103,6 +106,7 @@ export const projects: Project[] = [
     slug: "portfolio-website",
     subTitle:
       "A modern, responsive showcase of my web development journey, skills, and projects.",
+    categories: ["Web Development"],
 
     description:
       "My personal portfolio website highlights my technical skills, featured projects, educational background, and professional accomplishments. Built with performance, accessibility, and user experience in mind, it features smooth page transitions, responsive design, and interactive components, all built with modern web technologies.",

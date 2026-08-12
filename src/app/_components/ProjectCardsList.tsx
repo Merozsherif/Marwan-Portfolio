@@ -8,29 +8,16 @@ import { useSearchParams } from "next/navigation";
 function ProjectCardsList() {
   const searchParams = useSearchParams();
 
-  // Get the current projects filter for technologies used
-  const tech = searchParams.get("tech-used");
+  // Get the current projects filter for category
+  const category = searchParams.get("category");
 
-  let filteredProjects = projects;
-
-  // Filter the projects based on usage of Vanilla JS, React or Next.js
-  if (tech === "react") {
-    filteredProjects = projects.filter((project) =>
-      project.technologiesUsed.includes("React"),
-    );
-  } else if (tech === "nextjs") {
-    filteredProjects = projects.filter((project) =>
-      project.technologiesUsed.includes("Next.js"),
-    );
-  } else if (tech === "Angular") {
-    filteredProjects = projects.filter((project) =>
-      project.technologiesUsed.includes("Angular"),
-    );
-  }
+  const filteredProjects = category
+    ? projects.filter((project) => project.categories.includes(category))
+    : projects;
 
   return (
     <motion.ul
-      key={tech || "all"} // This forces re-mount when filter changes (so that animation fires each time)
+      key={category || "all"} // This forces re-mount when filter changes (so that animation fires each time)
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
