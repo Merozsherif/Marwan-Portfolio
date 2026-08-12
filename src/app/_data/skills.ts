@@ -3,6 +3,8 @@ import {
   Code2,
   Database,
   Palette,
+  Server,
+  Smartphone,
   Stars,
   Wrench,
 } from "lucide-react";
@@ -19,10 +21,33 @@ export const skillsInfo: SkillCategory[] = [
       "CSS3",
       "JavaScript (ES6+)",
       "TypeScript",
+      "Angular",
       "React",
       "React Router",
       "Next.js",
     ],
+  },
+  {
+    icon: Server,
+    iconColor: "#6C63FF",
+    iconBgColor: "#6C63FF20",
+    category: "Backend Development",
+    skills: [
+      "C#",
+      ".NET / ASP.NET Core",
+      "Web API",
+      "Entity Framework Core",
+      "SQL Server",
+      "REST APIs",
+      "JWT Authentication",
+    ],
+  },
+  {
+    icon: Smartphone,
+    iconColor: "#3DDC97",
+    iconBgColor: "#3DDC9720",
+    category: "Mobile Development",
+    skills: ["Mobile App Development"],
   },
   {
     icon: Palette,
@@ -99,11 +124,11 @@ export const skillsInfo: SkillCategory[] = [
 ];
 
 export const coreStrengths: string[] = [
-  "Building responsive, accessible web applications",
+  "Designing and building backend APIs and databases with .NET and SQL Server",
+  "Building responsive, accessible web and mobile applications",
+  "End-to-end ownership from database to backend to frontend",
   "Writing clean, maintainable, and scalable code",
-  "Implementing modern design systems",
   "Optimizing performance and user experience",
-  "Collaborating with cross-functional teams",
   "Quick learner with strong problem-solving skills",
 ];
 

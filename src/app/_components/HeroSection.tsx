@@ -41,13 +41,14 @@ function HeroSection() {
             transition={{ delay: 0.3 }}
           >
             <p className="text-(--orange-text) text-4xl mb-6 max-sm:text-2xl">
-              Front-End Developer
+              Full-Stack Software Developer
             </p>
 
             <p className="text-xl text-(--text-color-secondary) mb-8 max-w-154">
-              I build beautiful, responsive web applications using modern
-              technologies like Next.js, React and TypeScript, focusing on
-              clean, maintainable and accessible code.
+              I build complete software solutions — from databases and
+              backend APIs with .NET and C# to responsive web and mobile
+              apps with Angular, React and Next.js — helping businesses
+              launch, operate, and grow.
             </p>
           </AnimationWrapper>
 

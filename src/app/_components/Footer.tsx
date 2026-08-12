@@ -26,7 +26,7 @@ const quickLinks = [
   ],
   [
     { to: "/projects", label: "Projects" },
-    { to: "/project-details/ma-vault", label: "MA Vault" },
+    { to: "/project-details/x-care-healthcare-platform", label: "X-Care" },
   ],
   [
     { to: "/contact", label: "Contact" },
@@ -55,8 +55,8 @@ function Footer() {
           </h3>
 
           <p className="text-(--gray-text) text-sm max-w-85 max-[860px]:text-center">
-            Front-End Developer passionate about creating beautiful and
-            functional web applications.
+            Full-Stack Software Developer building complete web, mobile, and
+            backend solutions that help businesses launch and grow.
           </p>
         </div>
 

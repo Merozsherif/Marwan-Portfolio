@@ -14,23 +14,25 @@ function MyStoryArticle() {
       <h2 className="text-3xl text-(--orange-text) mb-6">My Story</h2>
 
       <p className={paragraphsClasses}>
-        I’m Marwan Sherif, a Computer Engineer and a web developer passionate
-        about building clean, modern, and user-focused web applications.
+        I’m Marwan Sherif, a Computer Engineer and Full-Stack Software
+        Developer. I don’t just build websites — I build complete software
+        solutions that help businesses launch, operate, and grow.
       </p>
 
       <p className={paragraphsClasses}>
-        Over the past year and a half, I’ve developed strong experience with
-        Next.js, React, TypeScript, and Tailwind CSS, crafting interfaces that
-        are both functional and visually refined. I care very much about
-        maintainable code, performance, and delivering seamless user
-        experiences.
+        I work across the full stack: designing databases and backend APIs
+        with C#, .NET / ASP.NET Core, and SQL Server, and building the web
+        and mobile experiences on top of them with Angular, React, and
+        Next.js. That means I can take a business need and turn it into a
+        working product end-to-end — frontend, backend, database, and
+        authentication included.
       </p>
 
       <p className={paragraphsClasses}>
-        Outside of coding, I like exploring new technologies and contributing to
-        the developer community. I’m excited to bring my skills to a
-        professional team where I can grow, collaborate, and create meaningful
-        digital products.
+        I care about clean architecture and long-term reliability, not just
+        shipping fast. I’m also focused on building lasting relationships with
+        the businesses I work with — staying involved after launch to
+        maintain, improve, and grow the software as their needs evolve.
       </p>
     </AnimationWrapper>
   );

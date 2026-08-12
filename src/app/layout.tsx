@@ -6,23 +6,26 @@ import Footer from "./_components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "Marwan Sherif| Front End Developer",
+    default: "Marwan Sherif| Full-Stack Software Developer",
     template: "%s | Marwan Sherif",
   },
   description:
-    "Front-end developer specializing in React, TypeScript, and modern web technologies. Explore my portfolio of interactive web applications and projects.",
+    "Full-stack software developer specializing in .NET, C#, Angular, React and Next.js. I build complete web, mobile, and backend software solutions for businesses. Explore my portfolio of projects and case studies.",
   keywords: [
     "Marwan Sherif",
-    "Front End Developer",
+    "Full-Stack Developer",
+    "Software Developer",
+    ".NET Developer",
+    "C# Developer",
+    "ASP.NET Core",
+    "Mobile App Developer",
+    "Angular Developer",
     "React Developer",
     "TypeScript",
     "Web Developer",
     "Portfolio",
-    "Framer Motion",
-    "Tailwind CSS",
     "Next.js",
     "JavaScript",
-    "UI/UX",
     "Web Applications",
   ],
   authors: [{ name: "Marwan Sherif" }],
@@ -64,25 +67,25 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://marwan-portfolio-ochre.vercel.app/",
-    title: "Marwan Sherif| Front End Developer",
+    title: "Marwan Sherif| Full-Stack Software Developer",
     description:
-      "Front-end developer specializing in Next.js, React, TypeScript, and modern web technologies. Explore my portfolio of interactive web applications and projects.",
+      "Full-stack software developer specializing in .NET, C#, Angular, React and Next.js. I build complete web, mobile, and backend software solutions for businesses.",
     siteName: "Marwan SherifPortfolio",
     images: [
       {
         url: "https://marwan-portfolio-ochre.vercel.app/myImg.png",
         width: 1200,
         height: 630,
-        alt: "Marwan Sherif- Front End Developer",
+        alt: "Marwan Sherif - Full-Stack Software Developer",
         type: "image/png",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Marwan Sherif| Front End Developer",
+    title: "Marwan Sherif| Full-Stack Software Developer",
     description:
-      "Front-end developer specializing in React, TypeScript, and modern web technologies. Explore my portfolio of interactive web applications and projects.",
+      "Full-stack software developer specializing in .NET, C#, Angular, React and Next.js. I build complete web, mobile, and backend software solutions for businesses.",
     images: ["https://marwan-portfolio-ochre.vercel.app/myImg.png"],
   },
   other: {
@@ -100,7 +103,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Marwan Sherif",
-    jobTitle: "Front End Developer",
+    jobTitle: "Full-Stack Software Developer",
     url: "https://marwan-portfolio-ochre.vercel.app/",
     image: "https://marwan-portfolio-ochre.vercel.app/myImg.png",
     sameAs: [
@@ -108,18 +111,23 @@ export default function RootLayout({
       "https://www.linkedin.com/in/marwan-sherif-518601252",
     ],
     knowsAbout: [
+      "C#",
+      ".NET / ASP.NET Core",
+      "Entity Framework Core",
+      "SQL Server",
+      "REST APIs",
+      "JWT Authentication",
+      "Angular",
       "React",
       "TypeScript",
       "Next.js",
-      "Framer Motion",
-      "Tailwind CSS",
+      "Mobile App Development",
       "JavaScript",
-      "Web Development",
-      "Front-end Development",
-      "UI/UX Design",
+      "Software Development",
+      "Full-Stack Development",
     ],
     description:
-      "Front-end developer specializing in React, Next.js, TypeScript, and modern web technologies.",
+      "Full-stack software developer specializing in .NET, C#, Angular, React, and Next.js, building complete web, mobile, and backend software solutions.",
     alumniOf: {
       "@type": "Organization",
       name: "University of Baghdad, Iraq",
@@ -139,7 +147,7 @@ export default function RootLayout({
     name: "Marwan SherifPortfolio",
     url: "https://marwan-portfolio-ochre.vercel.app/",
     description:
-      "Front-end developer portfolio showcasing React and TypeScript projects",
+      "Full-stack software developer portfolio showcasing .NET, C#, Angular, React, and Next.js projects",
     author: {
       "@type": "Person",
       name: "Marwan Sherif",
