@@ -6,6 +6,7 @@ import majorCompass from "@/app/assets/majorcompass.png";
 import lifeClinicImage from "@/app/assets/Clinic.png";
 import ecommerceAppImage from "@/app/assets/ecommerce.png";
 import xCareImage from "@/app/assets/X-care.png";
+import harlowFinchImage from "@/app/assets/harlow-finch-mobile.png";
 
 export const projects: Project[] = [
   {
@@ -145,6 +146,43 @@ export const projects: Project[] = [
     gitHubLink: "https://marwan-portfolio-ochre.vercel.app/",
     figmaLink:
       "https://www.figma.com/design/1LNGOAX1BV4PI1sEHHiqBD/Portfolio-Web-App-Design?node-id=3-13162&m=dev",
+    isFinished: true,
+  },
+
+  {
+    id: 5,
+    title: "Harlow & Finch Real Estate",
+    slug: "harlow-finch-real-estate",
+    subTitle:
+      "A synchronized real estate platform spanning a public website, agent dashboard, and mobile app",
+    categories: ["Mobile App", "Dashboard / Admin Panel"],
+
+    description:
+      "An interactive real estate platform prototype for Harlow & Finch, targeting the Dublin, Ireland property market. The experience spans three fully synchronized views — a public website for browsing listings, a wide agent dashboard for managing properties and clients, and a native-feeling mobile app for buyers — all reflecting the same live data in real time.",
+
+    technologiesUsed: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Tailwind CSS",
+    ],
+
+    keyFeatures: [
+      "Three synchronized views: public website, agent dashboard, and mobile app, all sharing live data",
+      "Location-based property search (e.g. Dublin neighborhoods)",
+      "Property type filters (House / Apartment / Duplex)",
+      "Personalized home feed with a greeting and curated listings",
+      "Property cards with pricing, address, and neighborhood details",
+      "Saved properties and in-app chat with agents from the mobile app",
+    ],
+
+    Challenges:
+      "Keeping three distinct interfaces — a marketing website, a data-dense agent dashboard, and a mobile app — visually consistent and perfectly in sync while each is optimized for a very different screen size and user goal.",
+
+    outcome:
+      "A cohesive, professional real estate experience that shows how the same property data can power a public-facing website, an internal agent tool, and a customer-facing mobile app from one connected system.",
+
+    imageUrl: harlowFinchImage,
     isFinished: true,
   },
 
