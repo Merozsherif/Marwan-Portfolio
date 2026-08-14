@@ -13,6 +13,8 @@ export interface Project {
   Challenges: string;
   outcome: string;
   imageUrl: string | StaticImageData;
+  secondaryImageUrl?: string | StaticImageData;
+  secondaryImageLabel?: string;
   liveLink?: string;
   gitHubLink?: string;
   youtubeLink?: string;

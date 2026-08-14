@@ -6,7 +6,8 @@ import majorCompass from "@/app/assets/majorcompass.png";
 import lifeClinicImage from "@/app/assets/Clinic.png";
 import ecommerceAppImage from "@/app/assets/ecommerce.png";
 import xCareImage from "@/app/assets/X-care.png";
-import harlowFinchImage from "@/app/assets/harlow-finch-mobile.png";
+import harlowFinchDashboard from "@/app/assets/harlow-finch-dashboard.png";
+import harlowFinchMobile from "@/app/assets/harlow-finch-mobile.png";
 
 export const projects: Project[] = [
   {
@@ -158,31 +159,37 @@ export const projects: Project[] = [
     categories: ["Mobile App", "Dashboard / Admin Panel"],
 
     description:
-      "An interactive real estate platform prototype for Harlow & Finch, targeting the Dublin, Ireland property market. The experience spans three fully synchronized views — a public website for browsing listings, a wide agent dashboard for managing properties and clients, and a native-feeling mobile app for buyers — all reflecting the same live data in real time.",
+      "An interactive real estate platform prototype for Harlow & Finch, targeting the Dublin, Ireland property market. The experience spans three fully synchronized views — a public website for browsing listings, a wide agent dashboard for managing properties and clients, and a native-feeling mobile app for buyers built with Flutter — all reflecting the same live data in real time.",
 
     technologiesUsed: [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
+      "Flutter",
+      "Dart",
+      "React",
+      "Next.js",
       "Tailwind CSS",
+      "Recharts",
+      "Firebase",
+      "REST APIs",
     ],
 
     keyFeatures: [
-      "Three synchronized views: public website, agent dashboard, and mobile app, all sharing live data",
-      "Location-based property search (e.g. Dublin neighborhoods)",
-      "Property type filters (House / Apartment / Duplex)",
-      "Personalized home feed with a greeting and curated listings",
-      "Property cards with pricing, address, and neighborhood details",
-      "Saved properties and in-app chat with agents from the mobile app",
+      "Three synchronized views: public website, agent dashboard, and Flutter mobile app, all sharing live data",
+      "Agent dashboard overview with active listings, leads, scheduled viewings, and average response time",
+      "Weekly listing traffic chart and a live activity feed for agent-buyer interactions",
+      "Listings management, leads & requests, and viewing calendar tools for agents",
+      "Location-based property search (e.g. Dublin neighborhoods) on the mobile app",
+      "Property type filters (House / Apartment / Duplex) and saved properties with in-app chat",
     ],
 
     Challenges:
-      "Keeping three distinct interfaces — a marketing website, a data-dense agent dashboard, and a mobile app — visually consistent and perfectly in sync while each is optimized for a very different screen size and user goal.",
+      "Keeping three distinct interfaces — a marketing website, a data-dense agent dashboard, and a Flutter mobile app — visually consistent and perfectly in sync in real time, while each is optimized for a very different screen size and user goal.",
 
     outcome:
-      "A cohesive, professional real estate experience that shows how the same property data can power a public-facing website, an internal agent tool, and a customer-facing mobile app from one connected system.",
+      "A cohesive, professional real estate platform that shows how the same property data can power a public-facing website, an internal agent dashboard, and a customer-facing mobile app from one connected system.",
 
-    imageUrl: harlowFinchImage,
+    imageUrl: harlowFinchDashboard,
+    secondaryImageUrl: harlowFinchMobile,
+    secondaryImageLabel: "Mobile App Preview",
     isFinished: true,
   },
 

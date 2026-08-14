@@ -5,12 +5,7 @@ import { motion } from "framer-motion";
 
 import Button from "./Button";
 
-const categories = [
-  "Web Development",
-  "Mobile App",
-  "Dashboard / Admin Panel",
-  "CRM / Management System",
-];
+const categories = ["Web Development", "Mobile App", "Dashboard / Admin Panel"];
 
 export default function ProjectsFilterButtons() {
   const router = useRouter();

@@ -99,14 +99,39 @@ async function ProjectDetailsPage({ params }: PageProps) {
           {project?.subTitle}
         </p>
 
-        {/* Project image */}
-        <div className="mb-12">
+        {/* Project image(s) */}
+        <div
+          className={`mb-12 grid gap-4 ${
+            project.secondaryImageUrl
+              ? "grid-cols-[2fr_1fr] max-md:grid-cols-1"
+              : "grid-cols-1"
+          }`}
+        >
           <Image
             priority={true}
             src={project?.imageUrl}
             alt={`Image for the project ${project?.title}`}
             className="rounded-xl w-full h-auto md:h-168 md:object-cover md:object-center"
           />
+
+          {project.secondaryImageUrl && (
+            <div>
+              <Image
+                priority={true}
+                src={project.secondaryImageUrl}
+                alt={
+                  project.secondaryImageLabel ||
+                  `Secondary image for the project ${project?.title}`
+                }
+                className="rounded-xl w-full h-auto md:h-168 md:object-cover md:object-top"
+              />
+              {project.secondaryImageLabel && (
+                <p className="text-sm text-(--gray-text) text-center mt-2">
+                  {project.secondaryImageLabel}
+                </p>
+              )}
+            </div>
+          )}
         </div>
 
         {/* Live links, Figma links, ... */}
