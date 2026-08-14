@@ -151,18 +151,19 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" suppressHydrationWarning>
+   <html lang="en" className="dark" suppressHydrationWarning>
       <head>
         {/* Theme Script - Prevents flash of unstyled content */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              try {
-  
-              } catch {}
-            `,
-          }}
-        />
+  <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      try {
+        const theme = localStorage.getItem("theme") || "dark";
+        document.documentElement.classList.toggle("dark", theme === "dark");
+      } catch {}
+    `,
+  }}
+/>
 
         {/* JSON-LD Structured Data - Person Schema */}
         <script
