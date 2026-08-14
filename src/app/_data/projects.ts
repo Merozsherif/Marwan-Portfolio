@@ -4,12 +4,71 @@ import jobTracker from "@/app/assets/jobtracker.png";
 import portfolio from "@/app/assets/Profile.png";
 import majorCompass from "@/app/assets/majorcompass.png";
 import lifeClinicImage from "@/app/assets/Clinic.png";
+import meridianImage from "@/app/assets/meridian.png";
+import yourGymImage from "@/app/assets/gym.png";
+import nawaImage from "@/app/assets/nawa.png";
+import loocsImage from "@/app/assets/look.png";
+import barbershopImage from "@/app/assets/chair-club.png";
 import ecommerceAppImage from "@/app/assets/ecommerce.png";
 import xCareImage from "@/app/assets/X-care.png";
 import harlowFinchDashboard from "@/app/assets/harlow-finch-dashboard.png";
 import harlowFinchMobile from "@/app/assets/harlow-finch-mobile.png";
 
 export const projects: Project[] = [
+    {
+    id: 9,
+    title: "Nawa Developments Platform",
+    slug: "nawa-developments",
+    subTitle: "An editorial real estate digital experience with interactive unit discovery tools",
+    categories: ["Web Development", "Real Estate"],
+    description: "A premium Web showcase for Nawa Developments, featuring master-planned real estate projects across Egypt. Built with interactive property finders, installment calculators, and immersive project landing pages.",
+    technologiesUsed: [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    keyFeatures: [
+      "Interactive Unit Finder with location and property specification filters",
+      "Mortgage & installment calculator for custom payment plan estimations",
+      "Comprehensive project showcase with detailed master plan breakdowns and amenities",
+      "Saved favorite properties watchlist and quick visit-booking flow",
+      "Responsive, luxury-focused editorial design and typography"
+    ],
+    Challenges: "Balancing high-resolution imagery and rich typography with fast initial page load speeds and seamless interactive calculator tools.",
+    outcome: "Successfully launched a high-converting real estate brand website that elevates client engagement and simplifies unit exploration.",
+    imageUrl: nawaImage,
+    liveLink: "https://merozsherif.github.io/nawa-developments/",
+    gitHubLink: "https://github.com/Merozsherif/nawa-developments.git",
+    isFinished: true
+  },
+  {
+    id: 10,
+    title: "Meridian Real Estate",
+    slug: "meridian-real-estate",
+    subTitle: "A sophisticated portfolio platform for luxury residential and commercial developments",
+    categories: ["Web Development", "Real Estate"],
+    description: "Meridian Real Estate is an enterprise landing platform highlighting prime waterfront residences, villa compounds, and business districts. It presents potential buyers with precision development data, interactive project maps, and direct consultation booking.",
+    technologiesUsed: [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Framer Motion"
+    ],
+    keyFeatures: [
+      "Interactive map coordinates and project location breakdowns across multiple cities",
+      "Dynamic statistical callouts and milestone achievements display",
+      "Consultation request modal and direct sales team routing",
+      "Filterable development portfolio highlighting active and delivered projects",
+      "Dark-theme architecture aesthetics with fluid UI transitions"
+    ],
+    Challenges: "Creating a distinct grid-patterned visual identity that aligns with surveyor-level precision while maintaining fast responsive performance across screen sizes.",
+    outcome: "Delivered an authoritative digital platform that reflects the developer's heritage and streamlines lead generation for high-value properties.",
+    imageUrl: meridianImage,
+    liveLink: "https://merozsherif.github.io/meridian-real-estate/",
+    gitHubLink: "https://github.com/Merozsherif/meridian-real-estate.git",
+    isFinished: true
+  },
   {
     id: 1,
     title: "E-commerce Web Application",
@@ -188,9 +247,93 @@ export const projects: Project[] = [
       "A cohesive, professional real estate platform that shows how the same property data can power a public-facing website, an internal agent dashboard, and a customer-facing mobile app from one connected system.",
 
     imageUrl: harlowFinchDashboard,
+    liveLink: "https://merozsherif.github.io/Harlow-Finch/",
+    gitHubLink: "https://github.com/Merozsherif/Harlow-Finch.git/",
     secondaryImageUrl: harlowFinchMobile,
     secondaryImageLabel: "Mobile App Preview",
     isFinished: true,
+  },
+{
+    id: 6,
+    title: "LOOCS - Local Fashion Hub",
+    slug: "loocs-local-fashion-hub",
+    subTitle: "A multi-vendor fashion platform connecting local Egyptian clothing brands with shoppers",
+    categories: ["Mobile App", "E-Commerce"],
+    description: "LOOCS is a multi-vendor mobile shopping platform designed to unite Egypt's top local fashion brands in one app. It allows users to seamlessy explore, shop across multiple brands in a single cart checkout, while offering full brand onboarding, stock management, and fulfillment capabilities for vendors.",
+    technologiesUsed: [
+      "Flutter",
+      "Dart",
+      "Firebase",
+      "REST APIs",
+      "Tailwind CSS"
+    ],
+    keyFeatures: [
+      "Multi-brand shopping cart with a single consolidated checkout process",
+      "Real-time inventory sync and live order tracking",
+      "Firebase integration for user authentication, database, and push notifications",
+      "Merchant onboarding dashboard for stock management and sales analytics",
+      "Built-in alert system for sellers and local delivery partners"
+    ],
+    Challenges: "Architecting a multi-vendor cart logic that gracefully aggregates products across different local brands while managing real-time inventory updates and dynamic shipping calculations.",
+    outcome: "Built an intuitive, scalable local marketplace app that streamlines multi-brand purchasing for shoppers and simplifies store operations for fashion creators.",
+    imageUrl: loocsImage,
+    liveLink: "https://merozsherif.github.io/look-App/",
+    gitHubLink: "https://github.com/Merozsherif/look-App.git",
+    isFinished: true
+  },
+  {
+    id: 7,
+    title: "YourGym Mobile App",
+    slug: "yourgym-mobile-app",
+    subTitle: "A feature-rich fitness and workout tracking mobile app with personalized routines",
+    categories: ["Mobile App", "Health & Fitness"],
+    description: "YourGym is a mobile application built to provide users with tailored workout plans, progress metrics, and exercise demonstrations. Designed for performance and offline reliability, it helps users stay consistent with structured exercise libraries and adaptive training routines.",
+    technologiesUsed: [
+      "Flutter",
+      "Dart",
+      "REST APIs",
+      "State Management"
+    ],
+    keyFeatures: [
+      "Custom workout plan builder filtered by muscle group, duration, and difficulty",
+      "Exercise library with detailed instructions and video guidance",
+      "Progress and personal bests tracker with visual performance charts",
+      "Offline mode to access downloaded plans and video guides without active internet",
+      "Adaptive workout recommendations based on user feedback and training history"
+    ],
+    Challenges: "Ensuring smooth video playback and workout plan availability in offline mode while maintaining a light app footprint and responsive cross-platform UI.",
+    outcome: "Delivered an offline-capable fitness tracking platform that empowers users to maintain their workout momentum anywhere with tailored guidance.",
+    imageUrl: yourGymImage,
+    liveLink: "https://merozsherif.github.io/mobile-app-gym/",
+    gitHubLink: "https://github.com/Merozsherif/mobile-app-gym.git",
+    isFinished: true
+  },
+  {
+    id: 8,
+    title: "Barbershop Booking Platform",
+    slug: "barbershop-booking-platform",
+    subTitle: "A digital appointment booking and loyalty card platform for barber shops and clients",
+  categories: ["Mobile App", "Dashboard / Admin Panel"],
+    description: "A modern appointment reservation system designed to replace traditional punch cards with a digital chair card. It offers clients frictionless one-tap rebooking, real-time loyalty point tracking, and automatic appointment reminders.",
+    technologiesUsed: [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "REST APIs"
+    ],
+    keyFeatures: [
+      "One-tap chair reservation for quick rebooking of previous barbers and styles",
+      "Digital loyalty card with live points balance and tier rewards status",
+      "Direct reward redemption integrated into the checkout flow",
+      "Automated push notifications for upcoming appointments and expiring rewards",
+      "Barber style notes and visit history tracking for continuous service personalization"
+    ],
+    Challenges: "Designing a sleek dark-themed client experience that simplifies appointment scheduling to under a minute while accurately reflecting live slot availability.",
+    outcome: "Created an engaging client app that modernizes the barbershop booking experience and improves customer retention through automated rewards.",
+    imageUrl: barbershopImage,
+    liveLink: "https://merozsherif.github.io/barbershop/",
+    gitHubLink: "https://github.com/Merozsherif/barbershop.git",
+    isFinished: true
   },
 
 
