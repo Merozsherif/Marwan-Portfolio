@@ -1,4 +1,4 @@
-import { ArrowRight, Download } from "lucide-react";
+import { ArrowRight, Download, MapPin } from "lucide-react";
 import Image from "next/image";
 import myImage from "../assets/myImage.jpg";
 import Button from "./Button";
@@ -46,9 +46,14 @@ function HeroSection() {
 
             <p className="text-xl text-(--text-color-secondary) mb-8 max-w-154">
               I build complete software solutions — from databases and
-              backend APIs with .NET and C# to responsive web and mobile
-              apps with Angular, React and Next.js — helping businesses
-              launch, operate, and grow.
+              backend APIs with .NET and C# to responsive web apps with
+              Angular, React and Next.js, and mobile apps with Flutter —
+              helping businesses launch, operate, and grow.
+            </p>
+
+            <p className="flex items-center gap-2 text-sm text-(--gray-text) mb-8">
+              <MapPin size={16} aria-hidden="true" className="text-(--orange-text)" />
+              Based in Cairo, Egypt — available for remote work worldwide
             </p>
           </AnimationWrapper>
 

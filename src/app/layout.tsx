@@ -104,6 +104,11 @@ export default function RootLayout({
     "@type": "Person",
     name: "Marwan Sherif",
     jobTitle: "Full-Stack Software Developer",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Cairo",
+      addressCountry: "EG",
+    },
     url: "https://marwan-portfolio-ochre.vercel.app/",
     image: "https://marwan-portfolio-ochre.vercel.app/myImg.png",
     sameAs: [
@@ -128,16 +133,6 @@ export default function RootLayout({
     ],
     description:
       "Full-stack software developer specializing in .NET, C#, Angular, React, and Next.js, building complete web, mobile, and backend software solutions.",
-    alumniOf: {
-      "@type": "Organization",
-      name: "University of Baghdad, Iraq",
-    },
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Al Diwaniyah",
-      addressRegion: "Al-Qadisiyah",
-      addressCountry: "IQ",
-    },
   };
 
   // WebSite Schema for search
