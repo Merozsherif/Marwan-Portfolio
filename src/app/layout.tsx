@@ -154,14 +154,9 @@ export default function RootLayout({
    <html lang="en" className="dark" suppressHydrationWarning>
       <head>
         {/* Theme Script - Prevents flash of unstyled content */}
-  <script
+<script
   dangerouslySetInnerHTML={{
-    __html: `
-      try {
-        const theme = localStorage.getItem("theme") || "dark";
-        document.documentElement.classList.toggle("dark", theme === "dark");
-      } catch {}
-    `,
+    __html: `document.documentElement.classList.add("dark");`,
   }}
 />
 
