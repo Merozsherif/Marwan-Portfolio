@@ -156,7 +156,7 @@ function MobileNavMenu({
             <div className="px-4 space-y-1">
               {/* Download CV */}
               <a
-                href="/cv.pdf"
+                href="/Marwan-sherif.pdf"
                 download="Marwan-Sherif-CV.pdf"
                 className="flex items-center gap-4 px-4 py-3.5 rounded-lg text-base transition-all hover:bg-(--border-color) cursor-pointer active:scale-[0.98] group"
               >
